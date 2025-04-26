@@ -1,0 +1,34 @@
+STEP 1: Install the python version 3.10.5 exe setfup file included in the folder and set environment variables
+
+STEP 2: Install any latest version of Visual Studio Code (VS Code)
+
+STEP 3: Open the "dispatchHub" folder in VS Code after opening the IDE
+
+STEP 4: Navigate to the "Project" root directory in the VS Code Terminal using the change directory command >> CD ..
+
+STEP 5: Run this command to acivate the virtual environment >> venvDispatchHub/Scripts/activate
+
+STEP 6: Run this command to upgrade the pip version >> python -m pip install --upgrade pip
+
+STEP 7: Run this command to install all dependencies, packages, and libraries used in the project >> pip  install -r requirements.txt
+
+STE8 7: Navigate to "dispatchHub" folder using the command >> cd dispatchHub
+
+STEP 8: Run this command to start the server and run the project >> python manage.py runserver
+
+STEP 9: Open your Web Browser and go to this URL to open the project >> http://127.0.0.1:8000/ 
+
+       Note:
+	- For customers, click on "Explore Our Services" on the homepage and login using this default details (or create a new account);
+		Email: mamma@gmail.com 
+		Password: maruf12345
+
+	- For dispachers, click on "Become A Dispatcher" on the homepage and login using this default details (or create a new account);
+		Email: mamma@gmail.com 
+		Password: maruf12345
+
+STEP 10: On your Web Browser and go to this URL to access the project's database >> http://127.0.0.1:8000/admin
+
+STEP 11: Using these details to access the database;
+		Username: admin
+		Password: password
